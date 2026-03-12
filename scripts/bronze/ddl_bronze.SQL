@@ -1,6 +1,13 @@
--- Create a table in the "bronze" schema named "customer_info" with the following columns:
-/* if a table named "customer_info" already exists in the "bronze" schema, 
-drop it before creating a new one */
+/*
+==================================================================================
+DDL Script Name: ddl_bronze.SQL
+==================================================================================
+Script Purpose:
+This script creates several tables in the "bronze" schema for storing customer,
+sales, product, and ERP data. 
+It first clears old versions of these tables if they exist, so you always have 
+clean and updated tables to work with.
+===================================================================================
 
 IF OBJECT_ID ('bronze.crm_cust_info', 'U') IS NOT NULL
 	DROP TABLE bronze.crm_cust_info
