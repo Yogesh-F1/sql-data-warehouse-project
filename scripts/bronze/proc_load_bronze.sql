@@ -1,24 +1,18 @@
-/* Description: This script is used to load data into the bronze layer of a data warehouse. 
-It uses the BULK INSERT statement to import data from a CSV file into a table 
-named 'crm_cust_info' in the 'bronze' schema.*/
-/*We want to truncate the table before loading data to avoid duplicates and 
-ensure that we are loading fresh data each time.*/
+/*
+========================================================================================================
+Stored Procedure: Load Bronze Layer (Source -> Bronze)
+========================================================================================================
+Script Purpose:
+          This stored procedure loads data into the 'bronze' schema from external csv files. 
+          It first truncates target tables to avoid duplicate entries and then performs 
+          BULK INSERT operations from CSV files into CRM and ERP tables. Progress messages
 
-/* create a stored procedure to load data into the bronze layer as 
-new data arrives in the source systems. Save frequntly used code as stored procedure 
-to avoid writing the same code again and again.
-We need to run this script on the daily basis */
+Parameters: The procedure does not require input parameters or return any values.
 
-/* Write a message to indicate the start of the data loading process. */
-/* We can use the PRINT statement to write a message to the console. */
-/* for error handling, we can use TRY...CATCH block to catch any errors 
-that occur during the data loading process and log them for further analysis. */
-/* we can use DATEDIFF function to calculate the time taken for the data loading process and
-log it for performance monitoring. */
-
-/* execute the stored procedure to load data into the bronze layer and 
-check the messages printed to the console for the progress of the data loading process.*/
-EXEC bronze.load_bronze  
+Usage Example: To load data into the bronze layer, simply execute:
+EXEC bronze.load_bronze
+========================================================================================================
+*/
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
