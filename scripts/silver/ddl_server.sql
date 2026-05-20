@@ -1,14 +1,14 @@
 /*
 ===============================================================================
-DDL Script: Create Silver Tables
+Silver Schema: Create Refined Data Tables
 ===============================================================================
-Script Purpose:
-    This script creates tables in the 'silver' schema, dropping existing tables 
-    if they already exist.
-	  Run this script to re-define the DDL structure of 'bronze' Tables
+Overview:
+    This script initializes the silver layer of the data warehouse by creating
+    cleaned and standardized tables. Idempotent design ensures safe re-execution.
 ===============================================================================
 */
 
+-- Customer Information Table
 IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE silver.crm_cust_info;
 GO
@@ -25,6 +25,7 @@ CREATE TABLE silver.crm_cust_info (
 );
 GO
 
+-- Product Information Table
 IF OBJECT_ID('silver.crm_prd_info', 'U') IS NOT NULL
     DROP TABLE silver.crm_prd_info;
 GO
@@ -42,6 +43,7 @@ CREATE TABLE silver.crm_prd_info (
 );
 GO
 
+-- Sales Transaction Details Table
 IF OBJECT_ID('silver.crm_sales_details', 'U') IS NOT NULL
     DROP TABLE silver.crm_sales_details;
 GO
@@ -60,6 +62,7 @@ CREATE TABLE silver.crm_sales_details (
 );
 GO
 
+-- ERP Location Reference Table
 IF OBJECT_ID('silver.erp_loc_a101', 'U') IS NOT NULL
     DROP TABLE silver.erp_loc_a101;
 GO
@@ -71,6 +74,7 @@ CREATE TABLE silver.erp_loc_a101 (
 );
 GO
 
+-- ERP Customer Dimension Table
 IF OBJECT_ID('silver.erp_cust_az12', 'U') IS NOT NULL
     DROP TABLE silver.erp_cust_az12;
 GO
@@ -83,6 +87,7 @@ CREATE TABLE silver.erp_cust_az12 (
 );
 GO
 
+-- ERP Product Category Hierarchy Table
 IF OBJECT_ID('silver.erp_px_cat_g1v2', 'U') IS NOT NULL
     DROP TABLE silver.erp_px_cat_g1v2;
 GO
