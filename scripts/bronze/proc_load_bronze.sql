@@ -27,6 +27,7 @@ BEGIN
 		PRINT 'Loading CRM Tables';
 		PRINT '-----------------------------------------------------';
 
+        -- Load CRM customer information (FIRSTROW = 2 skips header row)
 		SET @StartTime = GETDATE();
 		PRINT '>> Truncating Table: bronze.crm_cust_info';
 		TRUNCATE TABLE bronze.crm_cust_info;
@@ -43,6 +44,7 @@ BEGIN
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @StartTime, @EndTime) AS NVARCHAR) + ' seconds';
 		PRINT '>> -------------';
 
+        -- Load CRM product catalog
 		SET @StartTime = GETDATE();
 		PRINT '>> Truncating Table: bronze.crm_prd_info';
 		TRUNCATE TABLE bronze.crm_prd_info;
@@ -59,6 +61,7 @@ BEGIN
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @StartTime, @EndTime) AS NVARCHAR) + ' seconds';
 		PRINT '>> -------------';
 
+        -- Load CRM transactional sales records
 		SET @StartTime = GETDATE();
 		PRINT '>> Truncating Table: bronze.crm_sales_details';
 		TRUNCATE TABLE bronze.crm_sales_details;
@@ -79,6 +82,7 @@ BEGIN
 		PRINT 'Loading ERP Tables';
 		PRINT '-----------------------------------------------------';
 
+        -- Load ERP customer master data
 		SET @StartTime = GETDATE();
 		PRINT '>> Truncating Table: bronze.erp_CUST_AZ12';
 		TRUNCATE TABLE bronze.erp_CUST_AZ12;
@@ -95,6 +99,7 @@ BEGIN
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @StartTime, @EndTime) AS NVARCHAR) + ' seconds';
 		PRINT '>> -------------';
 
+        -- Load ERP location/site hierarchy data
 		SET @StartTime = GETDATE();
 		PRINT '>> Truncating Table: bronze.erp_LOC_A101';
 		TRUNCATE TABLE bronze.erp_LOC_A101;
@@ -111,6 +116,7 @@ BEGIN
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @StartTime, @EndTime) AS NVARCHAR) + ' seconds';
 		PRINT '>> -------------'
 
+	    -- Load ERP product category classification
 		SET @StartTime = GETDATE();
 		PRINT '>> Truncating Table: bronze.erp_PX_CAT_G1V2';
 		TRUNCATE TABLE bronze.erp_PX_CAT_G1V2;
@@ -127,6 +133,7 @@ BEGIN
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @StartTime, @EndTime) AS NVARCHAR) + ' seconds';
 		PRINT '>> -------------';
 
+        -- Report overall execution metrics
 		SET @Batch_EndTime = GETDATE();
 		PRINT '=====================================================';
 		PRINT 'Data loading process for bronze layer completed.';
@@ -134,6 +141,7 @@ BEGIN
 		PRINT '=====================================================';
 	END TRY
 	BEGIN CATCH
+		-- Capture and display comprehensive error details for troubleshooting
 	    PRINT '=====================================================';
 		PRINT 'An error occurred during loading bronze layer.';
 		PRINT 'Error Message: ' + ERROR_MESSAGE();
