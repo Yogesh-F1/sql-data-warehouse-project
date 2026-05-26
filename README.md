@@ -282,34 +282,6 @@ Use the Gold layer tables for reporting and analytics!
 
 ---
 
-## ☕ Stay Connected
-
-Let's stay in touch! Feel free to connect with me and access all my free content:
-
-### Follow My Work:
-- 🎬 **YouTube:** [Subscribe to my channel](https://youtube.com) - New tutorials weekly
-- 💼 **LinkedIn:** [Connect with me](https://linkedin.com) - Professional updates
-- 🌐 **Website:** [Visit my site](https://www.example.com) - Blog & resources
-- 📧 **Newsletter:** [Subscribe](https://newsletter.example.com) - Weekly insights
-- 💰 **Support:** [Buy me a coffee](https://paypal.me) - Help support the channel
-
-### Free Courses & Materials:
-
-All courses and materials are **completely free**. Your support through subscribing, liking, and commenting means the world to me!
-
-| Course | Links |
-|--------|-------|
-| **✅ SQL Full Course** | [Course Link](https://youtube.com) \| [Materials](https://github.com) \| [Git Repo](https://github.com) |
-| **✅ Tableau Full Course** | [Course Link](https://youtube.com) \| [Materials](https://github.com) \| [Public](https://tableau.com) |
-| **✅ SQL Data Warehouse Project** | [Course Link](https://youtube.com) \| [Materials](https://github.com) \| [Git Repo](https://github.com/Yogesh-F1/sql-data-warehouse-project) |
-| **✅ SQL EDA Project** | [Course Link](https://youtube.com) \| [Materials](https://github.com) \| [Git Repo](https://github.com) |
-| **✅ SQL Advanced Analysis Project** | [Course Link](https://youtube.com) \| [Materials](https://github.com) \| [Git Repo](https://github.com) |
-| **✅ Tableau Sales Project** | [Course Link](https://youtube.com) \| [Materials](https://github.com) \| [Public](https://tableau.com) |
-| **✅ Tableau HR Project** | [Course Link](https://youtube.com) \| [Materials](https://github.com) \| [Public](https://tableau.com) |
-| **✅ ChatGPT Course** | [Course Link](https://youtube.com) \| [Materials](https://github.com) |
-
----
-
 ## 🛡️ License
 
 This project is licensed under the **MIT License**. You are free to use, modify, and share this project with proper attribution.
@@ -329,28 +301,16 @@ See `LICENSE` file for full details.
 
 ## 🌟 About Me
 
-Hi there! I'm **Yogesh Hanwate**, also known as **Data With Yogesh**. I'm an IT professional and passionate content creator on a mission to share knowledge and make working with data enjoyable, engaging, and accessible to everyone!
-
-### 🎓 Expertise:
-- **Data Warehousing:** Design, architecture, and optimization
-- **SQL Development:** Complex queries, performance tuning, stored procedures
-- **ETL Processes:** Data integration and transformation pipelines
-- **Data Analytics:** Business intelligence and reporting
-- **Data Modeling:** Dimensional modeling, star schema design
-- **BI Tools:** Power BI, Tableau, SSRS
+Hi there! I'm **Yogesh**, I'm a working professional with a desire to learn and share knowledge and make working with data enjoyable, engaging, and accessible to everyone!
 
 ### 💡 Interests:
 - Building scalable data solutions
-- Teaching data engineering best practices
-- Creating practical, real-world projects
-- Mentoring aspiring data professionals
+- learingn through practical, real-world projects
 - Exploring emerging data technologies
 
 ### 🤝 Let's Connect:
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-- 💼 LinkedIn: [linkedin.com/in/yogesh-hanwate](https://linkedin.com)
-- 🎬 YouTube: [Data With Yogesh](https://youtube.com)
-- 🌐 Portfolio: [yogeshhanwate.com](https://www.example.com)
+- 💼 LinkedIn: [[linkedin.com/in/yogesh-hanwate](https://www.linkedin.com/in/yogesh-%E3%83%A8%E3%82%B2%E3%82%B7%E3%83%A6-hanwate-%E3%83%8F%E3%83%8A%E3%83%AF%E3%83%86%E3%82%A4-93307785/?locale=ja_JP)]
+- 🌐 Portfolio: [[yogeshhanwate.com](https://yogesh-f1.github.io/F1-TheAnalyst.github.io/)]
 
 **Your support helps me create more free content for the community. Thank you! 🙏**
 
