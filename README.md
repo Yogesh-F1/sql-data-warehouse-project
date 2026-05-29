@@ -12,7 +12,7 @@ The data architecture for this project follows **Medallion Architecture** with t
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    SOURCE SYSTEMS                               │
+│              SOURCE SYSTEMS                                     │
 │            (ERP & CRM CSV Files)                                │
 └────────────────────┬────────────────────────────────────────────┘
                      │
