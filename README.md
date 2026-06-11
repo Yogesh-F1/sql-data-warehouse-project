@@ -312,8 +312,6 @@ Hi there! I'm **Yogesh**, I'm a working professional with a desire to learn and 
 - 💼 LinkedIn: [[linkedin.com/in/yogesh-hanwate](https://www.linkedin.com/in/yogesh-%E3%83%A8%E3%82%B2%E3%82%B7%E3%83%A6-hanwate-%E3%83%8F%E3%83%8A%E3%83%AF%E3%83%86%E3%82%A4-93307785/?locale=ja_JP)]
 - 🌐 Portfolio: [[yogeshhanwate.com](https://yogesh-f1.github.io/F1-TheAnalyst.github.io/)]
 
-**Your support helps me create more free content for the community. Thank you! 🙏**
-
 ---
 ## 🧾 Credits & License
 
