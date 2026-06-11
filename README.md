@@ -315,8 +315,15 @@ Hi there! I'm **Yogesh**, I'm a working professional with a desire to learn and 
 **Your support helps me create more free content for the community. Thank you! 🙏**
 
 ---
+## 🧾 Credits & License
 
-**Last Updated:** 2026-05-26  
+**Attribution** — Created by Data with Baraa — Baraa Khatib Salkini (YouTube: Data with Baraa). Please retain the credit line on the cover and footer when sharing publicly. 🙏
+
+**Suggested license** — Consider a permissive license for sharing and reuse (e.g., MIT or CC BY 4.0). Add a LICENSE file to the repository to clarify reuse terms.
+
+---
+
+**Last Updated:** 2026-06-10  
 **Repository:** [sql-data-warehouse-project](https://github.com/Yogesh-F1/sql-data-warehouse-project)  
 **Status:** ✅ Active & Maintained
 
